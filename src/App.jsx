@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>
+    <div className="image-track">
       <img
         className="image"
         src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D"
