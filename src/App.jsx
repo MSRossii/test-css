@@ -53,6 +53,9 @@ function App() {
   window.ontouchmove = (e) => handleOnMove(e.touches[0]);
   return (
     <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+      <div id="text-top">
+        <h2 id="title">Image Slider</h2>
+      </div>
       <img
         id="image"
         src="https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D"
